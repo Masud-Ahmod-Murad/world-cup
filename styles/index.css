@@ -186,3 +186,47 @@ footer h2 {
     position: relative;
     top: 140px;
 }
+
+
+
+
+.matches {
+    display: grid;
+    grid-template-columns: 1fr repeat(3, 3fr);
+    gap: 30px;
+    position: relative;
+    left: 8%;
+}
+.matches-option {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    row-gap: 3%;
+    column-gap: -5%;
+}
+.match {
+    width: 282px;
+    height: 360px;
+    border: 1px solid rgba(0, 0, 0, 0.17);
+    border-radius: 12px;
+}
+/* .flags {
+    display: flex;
+    justify-content: center;
+    top: 40px;
+}
+#vs {
+    padding: 0 20px 0 20px;
+}
+.match {
+width: 282px;
+height: 200px;
+border: 1px solid rgba(0, 0, 0, 0.17);
+padding-top: 40px;
+border-radius: 12px;
+}
+.g-v-f, p{
+    display: flex;
+    justify-content: center;
+    top: 100px;
+} */
